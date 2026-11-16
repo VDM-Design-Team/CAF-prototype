@@ -1,0 +1,9 @@
+/* Open Sans, CAF's UI face: the theme names it but doesn't load it. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+/* Tailwind itself, every CAF and GDL token as a utility, and the components'
+   classes. It takes the place of @import "tailwindcss": don't add that too. */
+@import "@vdm-design-team/caf/theme.css";
+
+body {
+  @apply bg-surface-canvas font-sans text-text-primary;
+}
